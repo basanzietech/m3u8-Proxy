@@ -13,11 +13,11 @@ app.get('/proxy', (req, res) => {
             'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
             'sec-ch-ua-platform': '"Linux"',
             'Accept': '*/*',
-            'Origin': 'https://1qwebplay.xyz',
+            'Origin': '',
             'Sec-Fetch-Site': 'cross-site',
             'Sec-Fetch-Mode': 'cors',
             'Sec-Fetch-Dest': 'empty',
-            'Referer': 'https://1qwebplay.xyz/',
+            'Referer': '',
             'Accept-Encoding': 'gzip, deflate, br',
             'Accept-Language': 'en-US,en;q=0.9'
         }
