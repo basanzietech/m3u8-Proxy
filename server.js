@@ -3,7 +3,7 @@ const request = require('request');
 const app = express();
 
 app.get('/proxy', (req, res) => {
-    const videoUrl = 'https://09-24.mizhls.ru/fls/cdn/mono49/tracks-v1a1/mono.m3u8|referer=https://1qwebplay.xyz/';
+    const videoUrl = 'https://mol-2.com:8080/play/live.php?mac=00:1a:79:b4:54:7b&stream=287479&extension=m3u8';
 
     const options = {
         url: videoUrl,
