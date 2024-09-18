@@ -3,7 +3,7 @@ const request = require('request');
 const app = express();
 
 app.get('/proxy', (req, res) => {
-    const videoUrl = 'https://mol-2.com:8080/play/live.php?mac=00:1a:79:b4:54:7b&stream=287479&extension=m3u8';
+    const videoUrl = 'https://jicho.site/Channel/on_now?tv=ws';
 
     const options = {
         url: videoUrl,
